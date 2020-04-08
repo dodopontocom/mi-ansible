@@ -21,7 +21,7 @@ Given that, think the following:
 </dependency>
 ```
 
-2) Check that this version does not exist in ~/jdk
+2) Check that this version does not exist in ~/jdk  
     Maybe is better swap 1) and 2)
 
 3) Untar downloaded jdk artifact to ~/jdk/jdk-<VERSION>  
