@@ -1,5 +1,6 @@
-### Steps
-<strong>Servers are centOS
+### Study of case
+
+Servers are centOS
 
 JDK is just simple tar, untared to ~/jdk/jdk-<VERSION>  
 and we have symlink like ~/jdk/jdk - linking to latest version  
@@ -32,3 +33,9 @@ Given that, think the following:
 5) Adjust symlink to jdk
 
 5) Enjoy
+
+
+command:
+```shell
+ansible-playbook main.yaml -K -i inventories/hosts --extra-vars "@variables/vars.yml"
+```

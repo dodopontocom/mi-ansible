@@ -11,8 +11,7 @@
     
       - name: Show docker cool name
         uri:
-          url: 
-            with_items: "{{ urls }}"
+          url: {{ urls }}
           method: GET
           return_content: yes
           validate_certs: no
