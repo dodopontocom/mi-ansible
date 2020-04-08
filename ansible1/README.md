@@ -32,10 +32,11 @@ Given that, think the following:
 
 5) Adjust symlink to jdk
 
-5) Enjoy
+5) Enjoy ;)  
 
+## Try it
 
-command:
+Command:
 ```shell
 ansible-playbook main.yaml -K -i inventories/hosts --extra-vars "@variables/vars.yml"
 ```
