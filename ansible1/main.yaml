@@ -1,0 +1,23 @@
+# file: main.yml 
+---
+    - name: update all apt
+      hosts: odroid
+      remote_user: odroid
+      become: true
+    
+      tasks:
+      - name: Update apt-get repo and cache
+        apt: update_cache=yes force_apt_get=yes cache_valid_time=3600
+          #name: "*"
+          #state: latest
+          #force_apt_get: yes
+    
+      - name: Show docker cool name
+        uri:
+          url: 
+            with_items: "{{ urls }}"
+          method: GET
+          return_content: yes
+          validate_certs: no
+    
+    
