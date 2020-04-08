@@ -1,5 +1,4 @@
 
 # file: vars.yml
 ---
-    urls: [ https://frightanic.com/goodies_content/docker-names.php,
-        https://frightanic.com/goodies_content/docker-names.php ]
+    urls: https://frightanic.com/goodies_content/docker-names.php
