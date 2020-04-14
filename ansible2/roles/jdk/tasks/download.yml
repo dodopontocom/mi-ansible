@@ -1,0 +1,6 @@
+---
+#download jdk version from maven artifact
+- name: download jdk
+  yum:
+    name: httpd
+    state: latest
