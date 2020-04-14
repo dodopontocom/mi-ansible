@@ -11,7 +11,7 @@
 #roles
 #https://github.com/ansible/ansible-examples/tree/master/lamp_simple_rhel7
 #https://www.youtube.com/watch?v=SgxtxzQJM4w
-
+#https://github.com/lework/Ansible-roles/tree/master/java
 #
 
 #https://docs.ansible.com/ansible/latest/modules/yum_module.html
