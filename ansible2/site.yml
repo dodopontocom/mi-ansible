@@ -1,3 +1,4 @@
 ---
-- hosts: localhost
+- name: name
+  hosts: odroid
   roles: jdk
