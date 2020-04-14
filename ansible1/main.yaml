@@ -8,3 +8,5 @@
         shell: yum -y update
 
 #https://docs.ansible.com/ansible/latest/modules/yum_module.html
+#https://docs.ansible.com/ansible/latest/modules/maven_artifact_module.html
+#https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
