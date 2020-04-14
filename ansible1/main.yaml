@@ -6,7 +6,15 @@
       tasks:
       - name: update yum
         shell: yum -y update
+        
+        
+#roles
+#https://github.com/ansible/ansible-examples/tree/master/lamp_simple_rhel7
+
+#
 
 #https://docs.ansible.com/ansible/latest/modules/yum_module.html
 #https://docs.ansible.com/ansible/latest/modules/maven_artifact_module.html
 #https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html
+#https://github.com/carlossg/ansible-maven-repo
+#https://github.com/UnitedTraders/ansible-role-maven-download
