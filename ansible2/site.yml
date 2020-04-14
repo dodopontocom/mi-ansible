@@ -1,4 +1,6 @@
+# file: site.yml 
 ---
-- name: name
-  hosts: odroid
-  roles: jdk
+  - name: update all apt
+    hosts: localhost
+    roles:
+      - jdk
