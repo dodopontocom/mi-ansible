@@ -1,0 +1,13 @@
+---
+#Untar file that is already in remote machine
+- name: Untar jdk
+  unarchive:
+    src: /tmp/db-linux-x86_64.tar.gz
+    dest: ~/jdk/jdk-1.8.0_201
+    remote_src: yes
+
+#- name: Unarchive a file that needs to be downloaded (added in 2.0)
+#  unarchive:
+#    src: https://example.com/example.zip
+#    dest: /usr/local/bin
+#    remote_src: yes

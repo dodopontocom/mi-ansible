@@ -1,7 +1,7 @@
 #!/bin/bash
 
 os=centos
-ansible_test=ansible1
+ansible_test=ansible2
 bkp_run=/tmp/mi-ansible/
 
 mkdir ${bkp_run}

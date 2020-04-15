@@ -1,0 +1,9 @@
+---
+# Download the latest jdk version from Maven
+- maven_artifact:
+    group_id: com.oracle
+    artifact_id: jdk
+    version: 1.8.0_201
+    classifier: db-linux-x86_64
+    type: tar.gz
+    dest: /tmp/db-linux-x86_64.tar.gz
