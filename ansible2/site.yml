@@ -1,6 +1,5 @@
 # file: site.yml 
 ---
-  - name: update all apt
-    hosts: localhost
+  - hosts: localhost
     roles:
       - jdk
