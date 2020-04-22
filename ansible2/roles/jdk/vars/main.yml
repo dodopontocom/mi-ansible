@@ -1,2 +1,3 @@
 ---
 # vars file for jdk
+artifactory_url: https://oi.com
