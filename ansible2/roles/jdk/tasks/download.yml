@@ -3,7 +3,8 @@
 - maven_artifact:
     group_id: com.oracle
     artifact_id: jdk
-    version: 1.8.0_201
+    version: "{{ jdk_version }}"
     classifier: db-linux-x86_64
-    type: tar.gz
+    extension: tar.gz
+    repository_url: "{{ repository_url }}"
     dest: /tmp/db-linux-x86_64.tar.gz

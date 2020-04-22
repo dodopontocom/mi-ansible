@@ -1,2 +1,4 @@
 ---
 # vars file for jdk
+jdk_version: 1.8.0_201
+repository_url: https://io.com
