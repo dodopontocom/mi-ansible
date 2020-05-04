@@ -3,5 +3,5 @@
 #- include: download.yml
 #- include: verify_version.yml
 - include: untar.yml
-#- include: configure.yml
+- include: configure.yml
 #- include: service.yml

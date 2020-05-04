@@ -3,5 +3,5 @@
 - name: Untar jdk
   unarchive:
     src: "{{ jdk_temp_file }}"
-    dest: /tmp
+    dest: ~/jdk/
     remote_src: yes

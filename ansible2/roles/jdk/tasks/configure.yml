@@ -1,0 +1,6 @@
+---
+- name: Manage JDK symlink
+  file:
+    src: "~/jdk/yum.log"
+    dest: "~/jdk/jdk"
+    state: link
