@@ -1,10 +1,15 @@
 ---
 # Download the latest jdk version from Maven
 - maven_artifact:
-    group_id: com.oracle
+    group_id: mi-ansible
     artifact_id: jdk
     version: "{{ jdk_version }}"
     classifier: db-linux-x86_64
     extension: tar.gz
     repository_url: "{{ repository_url }}"
-    dest: /tmp/db-linux-x86_64.tar.gz
+    verify_checksum: never
+    dest: /tmp/
+
+# https://io.com/com/oracle/jdk/1.8.0_201/jdk-1.8.0_201-db-linux-x86_64.tar.gz"
+# https://storage.cloud.google.com/mi-ansible/jdk/1.8.0_201/
+# https://storage.cloud.google.com/mi-ansible/jdk/1.8.0_201/jdk-1.8.0_201.tar.gz?authuser=1

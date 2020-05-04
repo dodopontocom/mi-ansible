@@ -1,4 +1,7 @@
 ---
 # vars file for jdk
-jdk_version: 1.8.0_201
-repository_url: https://io.com
+jdk_version: jdk-1.8.0_201
+repository_url: https://storage.cloud.google.com
+jdk_temp_file: /tmp/tar.tar.gz
+
+# https://io.com/com/oracle/jdk/1.8.0_201/jdk-1.8.0_201-db-linux-x86_64.tar.gz"}

@@ -2,6 +2,8 @@ FROM centos:centos7
 
 ENV APP_HOME "/home/ansible"
 
+RUN yum -y install python-lxml
+
 RUN yum -y install epel-release && \
     yum -y --enablerepo=epel-testing install ansible
 
